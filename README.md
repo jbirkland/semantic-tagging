@@ -1,3 +1,4 @@
+![screenshot](https://user-images.githubusercontent.com/87788419/132933500-e689faaf-5409-4417-a80e-9920b5a901dc.png)
 # Homework 1: Semantic-tagging
 Bootcamp assignment #1
 

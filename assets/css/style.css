@@ -1,15 +1,15 @@
 
-/* This is a universal selector to ensure the page looks the same in all browsers.  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 
 }
-/* This is the backround color for the <main> and <aside> sections of the page.  */
+
 body {
     background-color: #d9dcd6;
 }
+
 /* These are base effect settings for the <h1> and <nav> tabs.  */
 .header {
     padding: 20px;
@@ -60,7 +60,7 @@ p {
     background-position: center;
 }
 
-/* Below are all the class values attached to the html.  */
+/* The two classes below position the images listed in the <main> part of the html for a fun visual experience.  */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -70,13 +70,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* This class sets the spacing format for the <section> tags in the <main> as it pertains to the page.  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This class sets the formatting for the words and box shapes in the <aside> part of the page.  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,7 +87,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* The three classes listed below create the indentation and text color for the <aside> section of the page.  */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,7 +102,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* The three classes below create the positioning of the <h3> tags inside of the <aside> tags.  */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,7 +117,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* The three classes below set the positioning of the <img> tags inside the <aside> tags.  */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,7 +135,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* The three classes below set the style, color and positioning for the <section> tags inside the <main> tag.  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,7 +162,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* The three classes below pertain to the size of the <img> inside the <main> tag.  */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,7 +174,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* The three classes below set the text format for the <h2> tags inside the <main> tag.  */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
